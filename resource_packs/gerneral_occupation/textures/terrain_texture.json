@@ -1,0 +1,35 @@
+{
+  "resource_pack_name": "farming",
+  "num_mip_levels": 4,
+  "padding": 8,
+  "texture_name": "atlas.terrain",
+  "texture_data": {
+    "dongha_n_corn_crop_0": {
+      "textures": "textures/blocks/corn_crop_0"
+    },
+    "dongha_n_corn_crop_1": {
+      "textures": "textures/blocks/corn_crop_1"
+    },
+    "dongha_n_corn_crop_2": {
+      "textures": "textures/blocks/corn_crop_2"
+    },
+    "dongha_n_corn_crop_3": {
+      "textures": "textures/blocks/corn_crop_3"
+    },
+    "dongha_n_corn_crop_4": {
+      "textures": "textures/blocks/corn_crop_4"
+    },
+    "dongha_n_umbrella": {
+      "textures": "textures/blocks/umbrella"
+    },
+    "dongha_n_farmland_dry": {
+      "textures": "textures/blocks/farmland/custom_farmland_dry"
+    },
+    "dongha_n_farmland_wet": {
+      "textures": "textures/blocks/farmland/custom_farmland_wet"
+    },
+    "test": {
+      "textures": "textures/blocks/farmland/test"
+    }
+  }
+}

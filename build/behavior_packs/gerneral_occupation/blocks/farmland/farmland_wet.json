@@ -1,0 +1,35 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:block": {
+    "description": {
+      "identifier": "dongha_n:farmland_wet"
+    },
+    "components": {
+      "tag:FARMLAND": {},
+      "tag:wet": {},
+      "minecraft:geometry": "geometry.custom_farm_land",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "dongha_n_farmland_wet",
+          "render_method": "alpha_test"
+        }
+      },
+      "minecraft:queued_ticking": {
+        "looping": false,
+        "interval_range": [12000, 18000],
+        "on_tick": {
+          "condition": "1",
+          "event": "dongha_n:not_wet",
+          "target": "self"
+        }
+      }
+    },
+    "events": {
+      "dongha_n:not_wet": {
+        "set_block": {
+          "block_type": "dongha_n:farmland_dry"
+        }
+      }
+    }
+  }
+}

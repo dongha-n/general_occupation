@@ -1,0 +1,17 @@
+{
+  "format_version": "1.20.10",
+  "minecraft:block": {
+    "description": {
+      "identifier": "dongha_n:umbrella"
+    },
+    "components": {
+      "minecraft:geometry": "geometry.umbrella",
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "dongha_n_umbrella",
+          "render_method": "alpha_test"
+        }
+      }
+    }
+  }
+}

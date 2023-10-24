@@ -1,0 +1,18 @@
+{
+  "resource_pack_name": "farming",
+  "texture_name": "atlas.items",
+  "texture_data": {
+    "corn_crop_seed": {
+      "textures": "textures/items/corn_crop_seed"
+    },
+    "corn": {
+      "textures": "textures/items/corn"
+    },
+    "wateringcan": {
+      "textures": "textures/items/wateringcan"
+    },
+    "shovel": {
+      "textures": "textures/items/shovel"
+    }
+  }
+}

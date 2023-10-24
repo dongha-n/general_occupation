@@ -1,0 +1,18 @@
+{
+  "format_version": 2,
+  "header": {
+    "name": "gerneral_occupation",
+    "description": "gerneral_occupation",
+    "uuid": "208c5e6e-39c8-43b9-a67e-52d19318f5ea",
+    "version": [0, 0, 1],
+    "min_engine_version": [1, 20, 30]
+  },
+  "modules": [
+    {
+      "description": "gerneral_occupation",
+      "type": "resources",
+      "uuid": "8988c27d-6798-4bc8-8a21-17e2056587b0",
+      "version": [1, 0, 0]
+    }
+  ]
+}
