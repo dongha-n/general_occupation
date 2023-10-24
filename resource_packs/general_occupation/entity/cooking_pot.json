@@ -1,0 +1,18 @@
+{
+  "format_version": "1.8.0",
+  "minecraft:client_entity": {
+    "description": {
+      "identifier": "dongha_n:cooking_pot",
+      "materials": {
+        "default": "egg"
+      },
+      "textures": {
+        "default": "textures/entity/cooking_pot"
+      },
+      "geometry": {
+        "default": "geometry.cooking_pot"
+      },
+      "render_controllers": ["controller.render.cooking_pot"]
+    }
+  }
+}

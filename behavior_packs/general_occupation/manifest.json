@@ -1,8 +1,8 @@
 {
   "format_version": 2,
   "header": {
-    "name": "gerneral_occupation",
-    "description": "gerneral_occupation",
+    "name": "general_occupation",
+    "description": "general_occupation",
     "uuid": "756e318a-ba8f-4b67-95fe-f30971807e0c",
     "version": [0, 0, 1],
     "min_engine_version": [1, 20, 30]
